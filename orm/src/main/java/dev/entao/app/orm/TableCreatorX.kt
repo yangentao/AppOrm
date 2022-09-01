@@ -6,7 +6,6 @@ import android.database.sqlite.SQLiteDatabase
 import androidx.core.database.sqlite.transaction
 import dev.entao.app.basic.Length
 import dev.entao.app.basic.returnClass
-import dev.entao.app.orm.*
 import dev.entao.app.sql.*
 import org.jetbrains.annotations.NotNull
 import kotlin.reflect.KClass

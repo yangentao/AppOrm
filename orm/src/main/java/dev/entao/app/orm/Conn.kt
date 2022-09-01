@@ -204,7 +204,7 @@ class Conn(val db: SQLiteDatabase) : Closeable {
         val q = SQLQuery()
         q.block()
         val c = this.query(q) ?: return emptyList()
-        return c.listDataClose
+        return c.toRowDataList()
 
     }
 
