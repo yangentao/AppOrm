@@ -4,7 +4,7 @@ plugins {
 }
 ext {
     nameGroup = "dev.entao.app"
-    nameVersion = "0.8.0"
+    nameVersion = "0.8.3"
     nameAF = "orm"
     nameGithub = "AppOrm"
     libDesc = 'Android Library, orm , sql.'
@@ -13,10 +13,10 @@ ext {
 dependencies {
     implementation 'androidx.core:core-ktx:1.7.0'
 
-    api 'dev.entao.app:inst:0.7.2'
-    api 'dev.entao.app:log:0.7.1'
-    api 'dev.entao.app:basic:0.7.2'
-    api 'dev.entao.app:sql:0.8.0'
-    api 'dev.entao.app:json:0.7.2'
+    api 'dev.entao.app:inst:0.7.3'
+    api 'dev.entao.app:log:0.7.3'
+    api 'dev.entao.app:basic:0.7.3'
+    api 'dev.entao.app:sql:0.8.3'
+    api 'dev.entao.app:json:0.7.3'
 }
 apply from: "libcommon.gradle"
